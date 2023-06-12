@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.score-board {
+    border: 2px solid lightgray;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.tital {
+    padding: 10px 10px;
+    font: 1em sans-serif;
+}
+
+.run-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid lightgray;
+    width: 100%;
+    padding: 20px 20px;
+    gap: 1rem;
+}
+
+.team {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.team-name {
+    font: 1.2em sans-serif;
+    font-weight: 700;
+}
+
+.runs {
+    font: 1em sans-serif;
+    font-weight: 600;
+}
+
+.round {
+    border-radius: 50%;
+    border-top: 40px solid blueviolet;
+    border-left: 40px solid cornflowerblue;
+    border-right: 40px solid burlywood;
+    border-bottom: 40px solid lawngreen;
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    bottom: 100px;
+    left: 70px;
+}
+
+.players {
+    border: 2px solid lightgray;
+    height: 79vh;
+    width: 60%;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.player-title {
+    text-align: center;
+    padding: 20px 20px;
+    font: 1em sans-serif;
+}
+
+.player-area {
+    border-top: 2px solid lightgray;
+}
+
+.alart {
+    border: 2px solid rgba(137, 43, 226, 0.619);
+    background: rgba(137, 43, 226, 0.502);
+    border-radius: 10px;
+    padding: 20px 20px;
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.close {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  /* .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+
+  .out {
+    font: .6em sans-serif;
+  }
